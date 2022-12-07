@@ -1,0 +1,78 @@
+body {
+  background-image: url("Tasbeeh-Counter-2.jpg");
+  background-size: cover;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: rgb(255, 255, 255, 0.5);
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  max-width: 350px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  padding-top: 50px;
+  margin-bottom: 10px;
+  width: 300px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: #2c2891;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#increment-btn:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+#increment-btn:active {
+  background-color: aqua;
+}
+
+#save-btn {
+  background: #1c7947;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#save-btn:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+#save-btn:active {
+  background-color: aqua;
+}
+
+#save-el {
+  font-weight: bold;
+  margin-bottom: 50px;
+  width: 300px;
+  margin: auto;
+  padding: 30px 0 30px 0;
+}
